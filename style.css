@@ -2,12 +2,7 @@
 * {
    box-sizing: border-box;
 }
-main {
-   display: flex;
-   justify-content: space-between; /* Adjusts spacing between cards */
-   flex-wrap: wrap; /* Ensures wrapping on smaller screens */
-   gap: 10px; /* Adds space between cards */
- }
+
  
 body, section, header, div, p, h1, h2, h3, ul, li, figure, figcaption {
    margin: 0;
@@ -19,12 +14,7 @@ body {
    background-color: #F0F4F8;
    font-weight: 300;
 }
-.card {
-   flex: 1; /* Ensures equal distribution */
-   max-width: calc(33.33% - 10px); /* Prevents exceeding container width */
-   background-color: white;
-   margin: 10px 0;
- }
+
  
  
 
